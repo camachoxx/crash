@@ -1,0 +1,22 @@
+From b2fd88a946c9dc7b550af91e140a57db39a2d343 Mon Sep 17 00:00:00 2001
+From: João <j.camacho@campus.fct.unl.pt>
+Date: Sat, 14 Sep 2019 03:17:02 +0100
+Subject: [PATCH] ubiviuv
+
+---
+ crash course.R | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/crash course.R b/crash course.R
+index 164a4c4..a21c5de 100644
+--- a/crash course.R
++++ b/crash course.R
+@@ -89,4 +89,4 @@ plot(dados$imc)
+ curve(log(x)+log(1-x),from=0,to=1) #função importante
+ #install.packages("ggplot2")
+ #install.packages("rmarkdown")
+-#install.packages("knitr")
++#install.packages("knitr")  random packages
+--
+libgit2 0.28.3
+
